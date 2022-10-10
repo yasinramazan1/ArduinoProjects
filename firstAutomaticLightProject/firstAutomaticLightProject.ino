@@ -10,10 +10,10 @@ void loop() {
 int light = analogRead(A0);
 Serial.println(light);
 delay(100);
-if(light>900){
+if(light>500){
   digitalWrite(led,LOW);
 }
-if(light<800){
+if(light<400){
   digitalWrite(led,HIGH);
 }
 }
