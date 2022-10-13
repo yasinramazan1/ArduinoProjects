@@ -31,20 +31,4 @@ else{
   digitalWrite(led,LOW);
   digitalWrite(buzzer,LOW);
 }
-<<<<<<< Updated upstream:secondAutomaticLightProject/secondRgbLightProject.ino
-
-else {
-  potValue = ((potValue-683)*3)/4;
-
-  redValue = potValue;
-  greenValue = 0;
-  blueValue = 255-potValue;
 }
-
-analogWrite(redPin,255-redValue);
-analogWrite(greenPin,255-greenValue);
-analogWrite(bluePin,255-blueValue);
-}
-=======
-}
->>>>>>> Stashed changes:secondAutomaticLightProject/secondAutomaticLightProject.ino
