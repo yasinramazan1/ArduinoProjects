@@ -1,2 +1,2 @@
 # arduinoLed
-This is the basic Arduino Led Project.
+This repository is including the basic Arduino Projects.
